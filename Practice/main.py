@@ -1,7 +1,7 @@
 from car import Car
 from student import Student
 from animal import Dog, Cat, Mouse, Animal
-
+from multiple_inheritance import Animal, Prey, Predator, Rabbit, Hawk, Fish
 
 # car1 = Car("Mustang", 2024, "red", False)
 # car2 = Car("Toyota", 2024, "red", False)
@@ -24,11 +24,23 @@ from animal import Dog, Cat, Mouse, Animal
 # print(Student.num_students)
 
 
-dog = Dog("Rex")
-cat = Cat("Whiskers")
-mouse = Mouse("Jerry")
+# dog = Dog("Rex")
+# cat = Cat("Whiskers")
+# mouse = Mouse("Jerry")
 
-print(dog.name)
-print(dog.is_alive)
-cat.eat()
-cat.sleep()
+# print(dog.name)
+# print(dog.is_alive)
+# cat.eat()
+# cat.sleep()
+
+rabbit = Rabbit("rabbit")
+hawk = Hawk("hawk")
+fish = Fish("fish")
+
+
+# rabbit.hunt()
+# hawk.hunt()
+fish.hunt()
+fish.flee()
+
+
