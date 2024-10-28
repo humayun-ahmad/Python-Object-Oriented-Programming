@@ -43,10 +43,16 @@ class Triangle(Shape):
     def area(self):
         return 0.5 * self.base * self.height
 
+class Pizza(Circle):
+    def __init__(self, topping, radius):
+        super().__init__(radius)
+        self.topping = topping
+
+
 # circle = Circle()
 # square = Square()
 
-shapes = [Circle(4), Square(5), Triangle(6, 7)]
+shapes = [Circle(4), Square(5), Triangle(6, 7), Pizza("pepperoni", 15)]
 
 for shape in shapes:
     print(f"Area of {type(shape).__name__}: {shape.area()} cm²")
