@@ -33,14 +33,14 @@ from multiple_inheritance import Animal, Prey, Predator, Rabbit, Hawk, Fish
 # cat.eat()
 # cat.sleep()
 
-rabbit = Rabbit("rabbit")
-hawk = Hawk("hawk")
-fish = Fish("fish")
+# rabbit = Rabbit("rabbit")
+# hawk = Hawk("hawk")
+# fish = Fish("fish")
 
 
 # rabbit.hunt()
 # hawk.hunt()
-fish.hunt()
-fish.flee()
+# fish.hunt()
+# fish.flee()
 
 
