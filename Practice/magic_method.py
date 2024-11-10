@@ -1,0 +1,1 @@
+# Magic methods = Dunder methods (double underscore) __init__, __str__, __eq__ They are automatically called by many of python built's in operations. They allow developers to define or customize the behavior of objects
